@@ -17,7 +17,7 @@ const BottomTabNavigator = () => {
           } else if (route.name === "CreatePost") {
             iconName = focused ? "create" : "create-outline";
           }
-          return <Ionicons name={iconName} size={RFValue(25)} color={color} />;
+          return <Ionicons name={iconName} size={size} color={color} />;
         },
       })}
       tabBarOptions={{
